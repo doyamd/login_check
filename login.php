@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,8 +17,10 @@
     
 		<header>
         <div id="logo" >
+		
             <p align="left"><a href="Home.html"><img src="images/Logo.png", width="150px",  alt="LOGO" ></a></p>
         </div>
+			
         <ul>
 		<li><a href="Home.php" target="_top" >HOME</a></li>
         <li><a href="products.php" target="_top">PRODUCTS</a></li>
@@ -47,6 +50,7 @@
 			
 
 			</div>
+			
 			</div>
 		</form>
         <!-- <?php

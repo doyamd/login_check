@@ -1,4 +1,4 @@
-i changed somehting here
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,8 +17,12 @@ i changed somehting here
     
 		<header>
         <div id="logo" >
+
+<!-- 		align=left was used. Its better to use css for positioning and other styling properties.  -->
             <p align="left"><a href="Home.html"><img src="images/Logo.png", width="150px",  alt="LOGO" ></a></p>
         </div>
+			
+<!-- 	Using ul is semantically correct. It is good for screen readers to know there is a list of links. But using a <nav> tag is also suggested. -->
         <ul>
 		<li><a href="Home.php" target="_top" >HOME</a></li>
         <li><a href="products.php" target="_top">PRODUCTS</a></li>
@@ -46,7 +50,7 @@ i changed somehting here
 			
 			<button type="submit" class="btn">SUBMIT</button>
 			
-
+			<!-- A forgotten empty div here, it is somehow useful for styling, it is better to look for other methods of styling that do not require the use of empty divs -->
 			</div>
 			</div>
 		</form>
